@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     footer = require('gulp-footer');
 
 var config = {
-  src: ['./src/!(index.coffee)', './src/index.coffee'],
+  src: ['./src/event.coffee', './src/!(event.coffee|index.coffee)', './src/index.coffee'],
   dest: './lib/',
   destFile: 'MVC.js',
   header: ['(function(exports){', '\r\n'],
