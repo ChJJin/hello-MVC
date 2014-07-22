@@ -21,7 +21,7 @@
     "gulp-coffee": "*",
     "gulp-util": "*",
     "gulp-concat": "*",
-    "gulp-header": "*",
-    "gulp-footer": "*"
+    "gulp-wrap": "*",
+    "gulp-load-plugins": "^0.5.3"
   }
 }
